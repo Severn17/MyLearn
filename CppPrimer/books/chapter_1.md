@@ -150,3 +150,101 @@ int main()
 }
 ```
 
+1.12练习: 下面for循环完成了什么功能？sum的终值是多少?
+
+```c++
+#include <iostream>
+
+int main()
+{
+    int sum = 0;
+    for (int i = 0; i <= 100; ++i)
+    {
+        sum += i;
+    }
+    std::cout << "sum is " << sum << std::endl;
+    return 0;
+}
+```
+
+1到100的整数相加，终值为5050
+
+1.13练习: 使用for循环重做1.4.1节中的所有练习
+
+练习1.9
+
+```c++
+#include <iostream>
+
+int main()
+{
+    int sum = 0;
+    for (int i = 50; i <= 100; i++)
+    {
+        sum += i;
+    }
+    std::cout << "sum is " << sum << std::endl;
+    return 0;
+}
+```
+
+练习1.10
+
+```c++
+#include <iostream>
+
+int main()
+{
+    for (int i = 10; i >= 0; i--)
+    {
+        std::cout << "num is " << i << std::endl;
+    }
+    return 0;
+}
+```
+
+练习1.11
+
+```c++
+#include <iostream>
+int main()
+{
+    int num1, num2;
+    std::cin >> num1 >> num2;
+    if (num1 < num2)
+    {
+        for (int i = num1; i <= num2; i++)
+        {
+            std::cout << "num is " << i << std::endl;
+        }
+    }
+    else
+    {
+        std::cout << "num1 must smaller than num2 !!!" << std::endl;
+    }
+
+    return 0;
+}
+```
+
+1.14练习:对比for循环和while循环,两种形式的优缺点各是什么?
+
+```markdown
+The main difference between the `for`'s and the `while`'s is a matter of pragmatics: 
+we usually use `for` when there is a known number of iterations, 
+and use `while` constructs when the number of iterations in not known in advance. 
+The `while` vs `do ... while` issue is also of pragmatics, 
+the second executes the instructions once at start, 
+and afterwards it behaves just like the simple `while`.
+```
+
+1.15练习:编写程序,包含第14页 "再探编译" 中讨论的常见错误.熟悉编译器生成的错误信息。
+
+```markdown
+编译器可以检查出的错误有：
+
+语法错误
+类型错误
+声明错误
+```
+
