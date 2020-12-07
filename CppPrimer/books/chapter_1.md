@@ -68,7 +68,7 @@ int main()
 
 1.6练习: 解释下面程序片段是否合法
 
-![image-20201202151059210](F:\Github\MyGithub\MyLearn\CppPrimer\image\image-20201202151059210.png)
+![image-20201202151059210](https://github.com/Severn17/MyLearn/blob/main/CppPrimer/image/image-20201202151059210.png?raw=true)
 
 答: 不合法，多余的分号
 
@@ -78,7 +78,7 @@ std::cout << "The sum of " << v1 << " and " << v2 << " is " << v1 + v2 << stu::e
 
 1.7练习: 编译一个包含不正确的嵌套注释的程序，观察编译器返回的错误信息
 
-![image-20201207111148432](F:\Github\MyGithub\MyLearn\CppPrimer\image\image-20201207111148432.png)
+![image-20201207111148432](https://github.com/Severn17/MyLearn/blob/main/CppPrimer/image/image-20201207111148432.png?raw=true)
 
 
 
