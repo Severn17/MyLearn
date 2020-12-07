@@ -80,5 +80,15 @@ std::cout << "The sum of " << v1 << " and " << v2 << " is " << v1 + v2 << stu::e
 
 ![image-20201207111148432](https://github.com/Severn17/MyLearn/blob/main/CppPrimer/image/image-20201207111148432.png?raw=true)
 
+1.8练习: 指出下列那些输出语句是合法的(如果有的话)
+
+![image-20201207142142819](F:\Github\MyGithub\MyLearn\CppPrimer\image\image-20201207142142819.png)
+
+第三句是错误的，改成
+
+```c++
+std::cout << /* "*/" */";
+```
+
 
 
