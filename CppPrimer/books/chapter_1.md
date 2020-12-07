@@ -76,3 +76,9 @@ int main()
 std::cout << "The sum of " << v1 << " and " << v2 << " is " << v1 + v2 << stu::endl;
 ```
 
+1.7练习: 编译一个包含不正确的嵌套注释的程序，观察编译器返回的错误信息
+
+![image-20201207111148432](F:\Github\MyGithub\MyLearn\CppPrimer\image\image-20201207111148432.png)
+
+
+
