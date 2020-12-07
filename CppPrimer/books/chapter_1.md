@@ -90,5 +90,63 @@ std::cout << "The sum of " << v1 << " and " << v2 << " is " << v1 + v2 << stu::e
 std::cout << /* "*/" */";
 ```
 
+1.9练习: 编写程序，使用while循环将50到100的整数相加
 
+```c++
+#include <iostream>
+
+int main()
+{
+    int sum = 0, val = 50;
+    while (val <= 100)
+    {
+        sum += val;
+        val++;
+        /* code */
+    }
+    std::cout << "Sum of 50 to 100 inclusive is " << sum << std::endl;
+    /* code */
+    return 0;
+}
+```
+
+1.10练习:除了`++`运算符将运算对象的值增加1之外，还有一个递减运算符`--`实现将值减少1.编写程序与，使用递减运算符在循环中按递减顺序打印出10到0之间的整数。
+
+```c++
+#include <iostream>
+
+int main()
+{
+    int val = 10;
+    while (val >= 0)
+    {
+        std::cout << "val is " << val << std::endl;
+        val--;
+    }
+    return 0;
+}
+```
+
+1.11练习: 编写程序，提示用户输入两个整数，打印出这两个整数所指定的范围内的所有整数。
+
+```c++
+#include <iostream>
+
+int main()
+{
+    int num1, num2;
+    std::cin >> num1 >> num2;
+    if (num1 < num2)
+    {
+        while (num1 <= num2)
+        {
+            std::cout << "num1 - num2 : " << num1++ << std::endl;
+        }
+    }
+    else
+    {
+        std::cout << "num1 must smaller than num2 !!!" << std::endl;
+    }
+}
+```
 
