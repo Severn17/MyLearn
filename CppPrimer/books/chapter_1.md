@@ -248,3 +248,19 @@ and afterwards it behaves just like the simple `while`.
 声明错误
 ```
 
+1.16练习: 编写程序,从cin读取一组数,输出其和。
+
+```c++
+#include <iostream>
+int main()
+{
+    int sum = 0;
+    for (int value = 0; std::cin >> value;)
+    {
+        sum += value;
+    }
+    std::cout << sum << std::endl;
+    return 0;
+}
+```
+
